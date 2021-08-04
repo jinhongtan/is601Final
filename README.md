@@ -8,6 +8,13 @@ This project create a flask applicaiton which is based on lesson4 project and mi
 3. Run the command "docker-compose build" without the quotation marks. Wait until the services finish building; it shouldn't take longer than a couple minutes.
 4. Once the build is done, run the command "docker-compose up" to bring up the services. Again, this should take about a minute.
 5. Open a browser, and go to localhost:5000. This will open the project, and you will be able to view it. Note that in order to edit, add or delete records, you will need to be logged in. Create an account at the top of the page, and then log in.
-6. When you are done, run "docker-compose down". This will stop all the containers and remove the images. Note that you may have to hit "Ctrl + C" on the keyboard in order to type 7. anything on the command line. Alternatively, you could open a new window or tab in the command line, or another CLI interface of your choice. Personally, I use Windows Terminal, but there is also Terminal if you are using a Mac, or Windows PowerShell if you are on Windows.
+6. After run the program. You can delete the containers and release the port. Otherwise when you next time run the program again, you have meet the error similar like "port is reallocated". 
+7. You can also run the program in pyCharm. This is a good option which is relatively easier to config and run, as well as update program.
+* Clone the project from Github follow the command line in step 1
+* Use pyCharm open the project
+* Install different plugs and packages
+* Add interpreter (use docker-compose and servise select app)
+* Run the program
+
 8. Login page
 ![img](app/Screenshot/login.png)
